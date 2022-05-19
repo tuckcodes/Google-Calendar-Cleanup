@@ -11,14 +11,13 @@
 - Save as 'credentials.json' into your local repo 
   <img width="130" alt="image" src="https://user-images.githubusercontent.com/18519239/169217778-8372a2ca-6e54-4868-b732-87a720bf2fba.png">
 - Modify the following lines
-- 
-https://github.com/tuckcodes/gcal-cleanup/blob/c4bbbc33d1a84eab775f178c45a7fe81b2d31092/gcalcleanup.py#L22
+https://github.com/tuckcodes/Google-Calendar-Cleanup/blob/e2b4e49392a16a828514066c4e989336e1895555/gcalcleanup.py#L22
 
-https://github.com/tuckcodes/gcal-cleanup/blob/c4bbbc33d1a84eab775f178c45a7fe81b2d31092/gcalcleanup.py#L55
+https://github.com/tuckcodes/Google-Calendar-Cleanup/blob/e2b4e49392a16a828514066c4e989336e1895555/gcalcleanup.py#L55
 
-https://github.com/tuckcodes/gcal-cleanup/blob/c4bbbc33d1a84eab775f178c45a7fe81b2d31092/gcalcleanup.py#L57
+https://github.com/tuckcodes/Google-Calendar-Cleanup/blob/e2b4e49392a16a828514066c4e989336e1895555/gcalcleanup.py#L57
 
-https://github.com/tuckcodes/gcal-cleanup/blob/c4bbbc33d1a84eab775f178c45a7fe81b2d31092/gcalcleanup.py#L60
+https://github.com/tuckcodes/Google-Calendar-Cleanup/blob/e2b4e49392a16a828514066c4e989336e1895555/gcalcleanup.py#L60
 
 - Run the following
 ``` python
