@@ -1,4 +1,5 @@
-# gcal-cleanup
+# gcalcleanup
+### An easily modified Google Calendar Cleanup tool that can be ran locally via terminal
 
 - [Create a project on GCP](https://console.cloud.google.com/projectcreate) if you don't have one already
 - You will likely need to [enable the Calendar API](https://console.cloud.google.com/apis/library/calendar-json.googleapis.com) for that project
