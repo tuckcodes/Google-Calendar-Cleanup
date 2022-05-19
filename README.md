@@ -1,6 +1,8 @@
 # gcalcleanup
 ### An easily modified Google Calendar Cleanup tool that can be ran locally via terminal
 
+> Note: The script will show you the results, and then ask you to proceed with deletion. It does NOT delete without permission first.
+
 - [Create a project on GCP](https://console.cloud.google.com/projectcreate) if you don't have one already
 - You will likely need to [enable the Calendar API](https://console.cloud.google.com/apis/library/calendar-json.googleapis.com) for that project
 - Create an "Desktop App" [OAtuh credential on GCP](https://console.cloud.google.com/apis/credentials/oauthclient)
@@ -11,8 +13,11 @@
 - Modify the following lines
 - 
 https://github.com/tuckcodes/gcal-cleanup/blob/c4bbbc33d1a84eab775f178c45a7fe81b2d31092/gcalcleanup.py#L22
+
 https://github.com/tuckcodes/gcal-cleanup/blob/c4bbbc33d1a84eab775f178c45a7fe81b2d31092/gcalcleanup.py#L55
+
 https://github.com/tuckcodes/gcal-cleanup/blob/c4bbbc33d1a84eab775f178c45a7fe81b2d31092/gcalcleanup.py#L57
+
 https://github.com/tuckcodes/gcal-cleanup/blob/c4bbbc33d1a84eab775f178c45a7fe81b2d31092/gcalcleanup.py#L60
 
 - Run the following
@@ -21,6 +26,10 @@ python gcalcleanup.py
 ```
 
 - The script will auto-generate a token.json file. If you are iterating with this script, sometimes you need to delete it as it stores scoping/permissions stuff and can hinder expected outcomes with code changes.
+
+A successful run looks like this:
+<img width="1096" alt="Screenshot 2022-05-18 233222" src="https://user-images.githubusercontent.com/18519239/169220950-18189831-0c5a-4113-aa28-4e6f4c11870e.png">
+
 
 ## Notes
 If you have python errors, make sure you have python3 installed. If PATH isnt set, you can also try running:
